@@ -22,7 +22,7 @@ terraform/
 ├── terraform.tfvars          # Valores padrão das variáveis
 ├── us-east-1.tfvars          # Configuração específica para us-east-1
 ├── backend.tf                # Configuração do backend S3
-└── main.go                   # Exemplo de código Go para interagir com Timestream
+└── main.go    
 
 
 ## Pré-requisitos
