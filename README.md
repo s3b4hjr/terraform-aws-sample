@@ -42,23 +42,25 @@ terraform/
 # Implantação
 Inicialize o Terraform:
 
+```bash
 terraform init
-
+```
 # Planeje a infraestrutura:
-
+```bash
 terraform plan -var-file="us-east-1.tfvars"
-
+```
 # Aplique a configuração:
-
+```bash
 terraform apply -var-file="us-east-1.tfvars"
+```
 
 # Veja os outputs:
 Após o apply, os outputs são exibidos. Para consultá-los novamente:
-
+```bash
 terraform output iam_user_name
 terraform output -raw iam_access_key_id
 terraform output -raw iam_secret_access_key
-
+```
 # Uso do Timestream com Go
 
 Pré-requisitos
